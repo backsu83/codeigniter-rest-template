@@ -1,0 +1,25 @@
+{
+	"description": "REST Server for the CodeIgniter framework",
+	"name": "chriskacerguis/codeigniter-restserver",
+	"type": "library",
+	"homepage": "https://github.com/chriskacerguis/codeigniter-restserver",
+	"authors": [
+		{
+			"name": "Chris Kacerguis",
+			"role": "Developer"
+		}
+	],
+	"license": "MIT",
+	"support": {
+		"source": "https://github.com/chriskacerguis/codeigniter-restserver"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"monolog/monolog": "1.0.*"
+	},
+	"autoload": {
+		"psr-4" : {
+			"Restserver\\Libraries\\" : "application/libraries/"
+		}
+	}
+}
